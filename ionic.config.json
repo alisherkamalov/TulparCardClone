@@ -1,0 +1,7 @@
+{
+  "name": "tulpar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

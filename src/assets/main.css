@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Arab'; /* Название шрифта */
+    src: url('Arab.ttf') format('truetype'); /* Указываем путь к файлу и формат */
+    font-weight: normal; /* Устанавливаем вес (normal, bold и т.д.) */
+    font-style: normal;  /* Устанавливаем стиль (normal, italic и т.д.) */
+}
+@font-face {
+    font-family: 'ArabN'; /* Название шрифта */
+    src: url('ArabN.ttf') format('truetype'); /* Указываем путь к файлу и формат */
+    font-weight: normal; /* Устанавливаем вес (normal, bold и т.д.) */
+    font-style: normal;  /* Устанавливаем стиль (normal, italic и т.д.) */
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: auto;
+    font-family: 'Arab';
+    user-select: none;
+}
+ul {
+    list-style: none;
+}
+nav {
+    background-color: white;
+}
+footer {
+    background-color: white;
+}
