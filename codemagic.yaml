@@ -4,7 +4,6 @@ workflows:
     environment:
       node: stable
     steps:
-      - checkout  # Проверяет код из репозитория
       - run:
           name: Install dependencies
           command: npm install  # Устанавливает зависимости
