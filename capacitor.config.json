@@ -1,5 +1,5 @@
 {
   "appId": "com.tulpar",
-  "appName": "tulpar",
-  "webDir": "www"
+  "appName": "TulparCard",
+  "webDir": "dist"
 }
