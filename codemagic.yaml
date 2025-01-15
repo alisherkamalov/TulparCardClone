@@ -1,8 +1,6 @@
 workflows:
   vue_build:
     name: TulparCard
-    instance_type: mac_mini
-    os: macos
     environment:
       node: stable
     steps:
@@ -17,5 +15,4 @@ workflows:
           name: Test the project
           command: npm run test  # Запускает тесты (если настроены)
       - upload_artifacts:
-          name: Upload build artifacts
           artifact_path: dist/  # Путь к сборке (обычно это папка dist или build)
