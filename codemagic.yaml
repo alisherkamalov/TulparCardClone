@@ -13,5 +13,3 @@ workflows:
       - run:
           name: Test the project
           command: npm run test  # Запускает тесты (если настроены)
-      - upload_artifacts:
-          artifact_path: dist/  # Путь к сборке (обычно это папка dist или build)
