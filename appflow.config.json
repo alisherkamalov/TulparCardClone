@@ -3,7 +3,8 @@
     [
         {
             "appId": "883a3fca",
-            "iosPath": "ios/App"
+            "iosPath": "ios/App",
+            "dependencyInstallCommand": "cd ../.. && yarn install"
         },
         {
             "appId": "b2222b2b",
