@@ -4,7 +4,7 @@
         {
             "appId": "883a3fca",
             "iosPath": "ios/App",
-            "dependencyInstallCommand": "cd ../.. && yarn install"
+            "dependencyInstallCommand": "cd ../.. && npm update @capacitor/ios"
         },
         {
             "appId": "b2222b2b",
